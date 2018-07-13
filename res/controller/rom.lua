@@ -1,4 +1,4 @@
-local tab = loadfile("/lib/tablet_connect.lua")()
+local tab = load_api("tablet_connect.lua")()
 
 if(not tab) then
     print("Cannot")
