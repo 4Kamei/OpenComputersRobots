@@ -18,7 +18,7 @@ local function load_library(name, needed)
     end
 end
 
-return function()
+return function(soc)
 
     seri = load_library("json", true)
 

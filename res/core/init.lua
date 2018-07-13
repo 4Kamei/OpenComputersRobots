@@ -231,3 +231,6 @@ end
 
 local src = request_file(file .. "rom.lua")
 return loadfile(src)
+
+--Now run the correct file. For tablet, download the startup script
+--For robot, provide a socket or call their init.lua to provide for you
